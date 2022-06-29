@@ -2,3 +2,69 @@
 * {
     font-family: 'Lato', sans-serif;
 }
+
+main .container{
+    display: block;
+    padding: 5em;
+    margin: 0;
+    max-width: 1440px;
+}
+
+header {
+    background: #bd0c64cc url(../img/backgroud.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 100px;
+    
+}
+
+.logo img{
+    height: 100%;
+    width: auto;
+}
+
+header .logo a {
+    display: block;
+    margin: 0px;
+    color: #FDFDFD;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav a {
+    color: #FDFDFD;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 10px;
+}
+
+footer {
+    background: #bd0c64cc;
+    display: flex;
+    justify-content: center;
+}

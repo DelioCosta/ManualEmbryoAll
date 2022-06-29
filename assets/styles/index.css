@@ -1,0 +1,27 @@
+h4 {
+    font-size: large;
+}
+
+.video{
+    text-align: center;
+}
+
+.video p {
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+.botoes{
+    padding-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.botao{
+    width: 250px;
+}
+
+.botao img{
+    width: 100%;
+    height: auto;
+}
