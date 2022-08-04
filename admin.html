@@ -39,155 +39,214 @@
     </header>
     <main>
         <!-- menu -->
-        <ul class="menu">
-            <li>
-                <div class="item-menu">Home</div>
-            </li>
-            <li>
-                <a class="item-menu" href="#">Adm Clínica</a>
-                <ul class="submenu">
-                    <li><a href="#">Clínica</a></li>
-                    <li><a href="#">Backup</a></li>
-                    <li><a href="#">Cargos</a></li>
-                    <li><a href="#">Convênios</a></li>
-                    <li><a href="#">Tipos de Serviços</a></li>
-                    <li><a href="#">Convênios por Tipos de Serviços</a></li>
-                    <li><a href="#">Repasse por Tipos de Serviços</a></li>
-                    <li><a href="#">Tipos de Laudos </a></li>
-                    <li><a href="#">Tipos de Tratamentos</a></li>
-                    <li><a href="#">Conduta Laboratório</a></li>
-                    <li><a href="#">Bandeiras Cartão</a></li>
-                    <li><a href="#">Conta Corrente</a></li>
-                    <li><a href="#">Locais de Estoque</a></li>
-                    <li><a href="#">Fornecedores</a></li>
-                </ul>
-            </li>
-            <li>
-                <a class="item-menu" href="#">Agenda</a>
-                <ul class="submenu">
-                    <li><a href="#">Calendário</a></li>
-                    <li><a href="#">Bloqueio Agenda</a></li>
-                    <li><a href="#">Todas Consultas</a></li>
-                    <li><a href="#">Consultas Médicos</a></li>
-                </ul>
-            </li>
-            <li>
-                <a class="item-menu" href="#">Financeiro</a>
-                <ul class="submenu">
-                    <li><a href="#">Saldo</a></li>
-                    <li><a href="#">Contas</a></li>
-                    <li><a href="#">Centro de Custo</a></li>
-                    <li><a href="#">Ordem de Serviço</a></li>
-                    <li><a href="#">Entradas - Contas a Receber</a></li>
-                    <li><a href="#">Saídas - Contas a Pagar</a></li>
-                    <li><a href="#">Criopreservado</a></li>
-                    <li><a href="#">Criopreservado Detalhada</a></li>
-                    <li><a href="#">Relatórios de Contas a Receber</a></li>
-                    <li><a href="#">Relatórios de Contas a Pagar</a></li>
-                    <li><a href="#">Relatórios de Entradas para NF</a></li>
-                    <li><a href="#">Relatórios de Entradas Médico</a></li>
-                    <li><a href="#">Lista para Contato</a></li>
-                </ul>
-            </li>
-            <li>
-                <a class="item-menu" href="#">Orientações/Receitas</a>
-                <ul class="submenu">
-                    <li><a href="#">Atestado</a></li>
-                    <li><a href="#">Laudos</a></li>
-                    <li><a href="#">Orientações</a></li>
-                    <li><a href="#">Pedidos de Exames</a></li>
-                    <li><a href="#">Receitas</a></li>
-                    <li><a href="#">Termos e Contratos</a></li>
-                    <li><a href="#">POPS</a></li>
-                </ul>
-            </li>
-            <li>
-                <a class="item-menu" href="#">Jornada da Paciente</a>
-                <ul class="submenu">
-                    <li><a href="#">Atestado</a></li>
-                    <li><a href="#">Laudos</a></li>
-                    <li><a href="#">Orientações</a></li>
-                    <li><a href="#">Pedidos de Exames</a></li>
-                    <li><a href="#">Receitas</a></li>
-                    <li><a href="#">Termos e Contratos</a></li>
-                    <li><a href="#">POPS</a></li>
-                </ul>
-            </li>
-            <li>
-                <a class="item-menu" href="#">Área da Paciente</a>
-                <ul class="submenu">
-                    <li><a href="#">Acessos das Pacientes</a></li>
-                </ul>
-            </li>
-            <li>
-                <a class="item-menu" href="#">Controle de Estoque</a>
-                <ul class="submenu">
-                    <li><a href="#">Estoque Laboratório</a></li>
-                    <li><a href="#">Estoque Materiais e Medicamentos</a></li>
-                    <li><a href="#">Solicitações Materiais e Medicamentos</a></li>
-                    <li><a href="#">Saídas Materiais e Medicamentos</a></li>
-                    <li><a href="#">Entradas Materiais e Medicamentos</a></li>
-                    <li><a href="#">Cadastros Materiais e Medicamentos</a></li>
-                    <li><a href="#">Rastreio Materiais e Medicamentos</a></li>
-                    <li><a href="#">Posologia</a></li>
-                    <li><a href="#">Locais de Estoque</a></li>
-                </ul>
-            </li>
-            <li>
-                <a class="item-menu" href="#">Usuários</a>
-                <ul class="submenu">
-                    <li><a href="#">Administrador</a></li>
-                    <li><a href="#">Embriologista</a></li>
-                    <li><a href="#">Enfermeiros</a></li>
-                    <li><a href="#">Equipe Orientação</a></li>
-                    <li><a href="#">Médicos</a></li>
-                    <li><a href="#">Secretárias</a></li>
-                    <li><a href="#">Meus Dados</a></li>
-                    <li><a href="#">Log de Acesso</a></li>
-                </ul>
-            </li>
-            <li>
-                <a class="item-menu" href="#">Termos de Uso</a>
-            </li>
-            <li>
-                <a class="item-menu" href="#">Fale Conosco</a>
-            </li>
-            <li>
-                <a class="item-menu" href="#">Sair</a>
-            </li>
-        </ul> 
-
-        <div class="container">
+        <div id="menu">
+            <ul class="menu">
+                <li>
+                    <a class="item-menu" href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="item-menu" href="#adm-clinica">Adm Clínica</a>
+                    <ul class="submenu">
+                        <li><a href="#">Clínica</a></li>
+                        <li><a href="#">Backup</a></li>
+                        <li><a href="#">Cargos</a></li>
+                        <li><a href="#">Convênios</a></li>
+                        <li><a href="#">Tipos de Serviços</a></li>
+                        <li><a href="#">Convênios por Tipos de Serviços</a></li>
+                        <li><a href="#">Repasse por Tipos de Serviços</a></li>
+                        <li><a href="#">Tipos de Laudos </a></li>
+                        <li><a href="#">Tipos de Tratamentos</a></li>
+                        <li><a href="#">Conduta Laboratório</a></li>
+                        <li><a href="#">Bandeiras Cartão</a></li>
+                        <li><a href="#">Conta Corrente</a></li>
+                        <li><a href="#">Locais de Estoque</a></li>
+                        <li><a href="#">Fornecedores</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="item-menu" href="#agenda">Agenda</a>
+                    <ul class="submenu">
+                        <li><a href="#">Calendário</a></li>
+                        <li><a href="#">Bloqueio Agenda</a></li>
+                        <li><a href="#">Todas Consultas</a></li>
+                        <li><a href="#">Consultas Médicos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="item-menu" href="#financeiro">Financeiro</a>
+                    <ul class="submenu">
+                        <li><a href="#">Saldo</a></li>
+                        <li><a href="#">Contas</a></li>
+                        <li><a href="#">Centro de Custo</a></li>
+                        <li><a href="#">Ordem de Serviço</a></li>
+                        <li><a href="#">Entradas - Contas a Receber</a></li>
+                        <li><a href="#">Saídas - Contas a Pagar</a></li>
+                        <li><a href="#">Criopreservado</a></li>
+                        <li><a href="#">Criopreservado Detalhada</a></li>
+                        <li><a href="#">Relatórios de Contas a Receber</a></li>
+                        <li><a href="#">Relatórios de Contas a Pagar</a></li>
+                        <li><a href="#">Relatórios de Entradas para NF</a></li>
+                        <li><a href="#">Relatórios de Entradas Médico</a></li>
+                        <li><a href="#">Lista para Contato</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="item-menu" href="#orientacoes">Orientações/Receitas</a>
+                    <ul class="submenu">
+                        <li><a href="#">Atestado</a></li>
+                        <li><a href="#">Laudos</a></li>
+                        <li><a href="#">Orientações</a></li>
+                        <li><a href="#">Pedidos de Exames</a></li>
+                        <li><a href="#">Receitas</a></li>
+                        <li><a href="#">Termos e Contratos</a></li>
+                        <li><a href="#">POPS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="item-menu" href="#jornada-paciente">Jornada da Paciente</a>
+                    <ul class="submenu">
+                        <li><a href="#">Cadastro Pacientes</a></li>
+                        <li><a href="#">Tratamentos Geral</a></li>
+                        <li><a href="#">Medicações por Tratamento</a></li>
+                        <li><a href="#">Visualizar Incubadoras</a></li>
+                        <li><a href="#">Tempo de Permanência</a></li>
+                        <li><a href="#">Linha do Tempo Pacientes</a></li>
+                        <li><a href="#">Resultados Beta HCG</a></li>
+                        <li><a href="#">Checklist</a></li>
+                        <li><a href="#">Área da paciente</a></li>
+                        <li><a href="#">Cadastro de Email Paciente</a></li>
+                        <li><a href="#">Pacientes Duplicados</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="item-menu" href="#area-paciente">Área da Paciente</a>
+                    <ul class="submenu">
+                        <li><a href="#">Acessos das Pacientes</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="item-menu" href="#controle-estoque">Controle de Estoque</a>
+                    <ul class="submenu">
+                        <li><a href="#">Estoque Laboratório</a></li>
+                        <li><a href="#">Estoque Materiais e Medicamentos</a></li>
+                        <li><a href="#">Solicitações Materiais e Medicamentos</a></li>
+                        <li><a href="#">Saídas Materiais e Medicamentos</a></li>
+                        <li><a href="#">Entradas Materiais e Medicamentos</a></li>
+                        <li><a href="#">Cadastros Materiais e Medicamentos</a></li>
+                        <li><a href="#">Rastreio Materiais e Medicamentos</a></li>
+                        <li><a href="#">Posologia</a></li>
+                        <li><a href="#">Locais de Estoque</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="item-menu" href="#usuarios">Usuários</a>
+                    <ul class="submenu">
+                        <li><a href="#">Administrador</a></li>
+                        <li><a href="#">Embriologista</a></li>
+                        <li><a href="#">Enfermeiros</a></li>
+                        <li><a href="#">Equipe Orientação</a></li>
+                        <li><a href="#">Médicos</a></li>
+                        <li><a href="#">Secretárias</a></li>
+                        <li><a href="#">Meus Dados</a></li>
+                        <li><a href="#">Log de Acesso</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="item-menu" href="#termos-de-uso">Termos de Uso</a>
+                </li>
+                <li>
+                    <a class="item-menu" href="#fale-conosco">Fale Conosco</a>
+                </li>
+                <li>
+                    <a class="item-menu" href="#sair">Sair</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Texto principal do usuário -->
+        <div id="intro">
             <article class="intro">
                 <h2>Administrador</h2>
                 <p>O Administrador é o usuário responsável pelas configurações iniciais do sistema,
                      influenciando diretamente na forma como os demais usuários utilizarão o EmbryoAll. Este é quem configura
                       os tipos de serviços e e tratamentos prestados pela clínica.
-                      Além disso, os usuários Administradores também são os responsáveis pelo Financeiro da clínica.</p>
+                      Além disso, os usuários Administradores também são os responsáveis pelo Financeiro da 
+                      clínica e cadastro dos demais usuários.</p>
             </article>
+        </div>
+        <!-- Descrição dos itens do menu -->
+        <div class="container">
+            
             <article class="menu">
-                <section class="item-menu">
-                    <h3>Menu Admin Clínica</h3>
+                <section id="home">
+                    <h3>Home</h3>
+                    <p>
+                        O menu Home traz uma visão geral da saúde financeira da clínica, como vários indicadores para análise. 
+                    </p>
+                </section>
+                <section id="adm-clinica">
+                    <h3>Adm Clínica</h3>
+                    <p>
+                        No menu Adm Clínica são feitas os cadastros e configurações iniciais do sistema.
+                    </p>
+                    >Saldo</a></li>
+                    >Contas</a></li>
+                    >Centro de Custo</a></li>
+                    >Ordem de Serviço</a></li>
+                    >Entradas - Contas a Receber</a></li>
+                    >Saídas - Contas a Pagar</a></li>
+                    >Criopreservado</a></li>
+                    >Criopreservado Detalhada</a></li>
+                    >Relatórios de Contas a Receber</a></li>
+                    >Relatórios de Contas a Pagar</a></li>
+                    >Relatórios de Entradas para NF</a></li>
+                    >Relatórios de Entradas Médico</a></li>
+                    >Lista para Contato</a></li>
+
                 </section>
 
-                <section class="item-menu">
+                <section id="agenda">
+                    <h3>Agenda</h3>
+                </section>
+
+                <section id="financeiro">
                     <h3>Financeiro</h3>
                 </section>
 
-                <section class="item-menu">
-                    <h3>Orientações / Receitas</h3>
+                <section id="orientacoes">
+                    <h3>Orientações/Receitas</h3>
                 </section>
 
-                <section class="item-menu">
+                <section id="jornada-paciente">
                     <h3>Jornada do Paciente</h3>
                 </section>
 
-                <section class="item-menu">
+                <section id="area-paciente">
+                    <h3>Área da Paciente</h3>
+                </section>
+
+                <section id="controle-estoque">
                     <h3>Controle de Estoque</h3>
                 </section>
 
-                <section class="item-menu">
+                <section id="usuarios">
                     <h3>Usuários</h3>
+                </section>
+
+                <section id="termos-de-uso">
+                    <h3>Termos de Uso</h3>
+                    <p>
+                        Neste item é possível verificar os termos de uso e políticas de privacidade do sistema. 
+                        O aceite destes é necessário para utilização do EmbryoAll e serão exibidos automaticamente
+                         no momento do primeiro acesso.
+                    </p>
+                </section>
+
+                <section id="fale-conosco">
+                    <h3>Fale Conosco</h3>
+                </section>
+
+                <section id="sair">
+                    <h3>Sair</h3>
                 </section>
 
             </article>
